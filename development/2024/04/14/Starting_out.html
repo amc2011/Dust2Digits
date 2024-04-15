@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Starting out</title>
+  <meta name="description" content="Starting out">
+  
+  <meta name="author" content="Vincente Canas">
+  <meta name="copyright" content="&copy; Vincente Canas 2024">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/Dust2Digits/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/Dust2Digits/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/Dust2Digits/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/Dust2Digits/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/Dust2Digits/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/Dust2Digits/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/Dust2Digits/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/Dust2Digits/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/Dust2Digits/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/Dust2Digits/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Dust2Digits/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/Dust2Digits/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Dust2Digits/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/Dust2Digits/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Dust2Digits/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/Dust2Digits/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/Dust2Digits/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="Starting out" />
+  <meta property="og:url" content="http://localhost:4000/development/2024/04/14/Starting_out.html">
+  <meta property="og:site_name" content="Dust 2 Digits" />
+  <meta property="og:title" content="Starting out" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/Dust2Digits/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Starting out">
+  <meta name="twitter:description" content="Starting out">
+  <meta name="twitter:image" content="http://localhost:4000/Dust2Digits/assets/logo.png">
+  <meta name="twitter:url" content="http://localhost:4000/development/2024/04/14/Starting_out.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/Dust2Digits/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/Dust2Digits/development/2024/04/14/Starting_out.html">
+	<link rel="alternate" type="application/rss+xml" title="Dust 2 Digits" href="http://localhost:4000/Dust2Digits/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/Dust2Digits/" class="logo">
+      
+      <img src="/Dust2Digits/assets/logo.png" alt="Dust 2 Digits">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/Dust2Digits/posts/">Posts</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/categories/">Categories</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/tags/">Tags</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/about/">About</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/contact/">Contact</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Starting out</h1>
+      <p class="info">by <strong>Vincente Canas</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">April 14, 2024</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/Dust2Digits/category/development">Development</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>Starting out</p>
+
+<p>I am Vincente Canas, an early career professional. Having recently completed the Level 3 CILIP Library, Informaion and Archive Services Assistant Apprenticeship with Kingston Heritage Service, I am now looking for my first career in archives, collections and libraries.</p>
+
+<p>This blog will highlight practical experiences and reflections gained from ongoing professional development for working with archives and collections, as well as discoveries from the archives made along the way.</p>
+
+<h4 id="digital-preservation">Digital preservation</h4>
+
+<p>My apprenticeship project was related to developing digital collections and digital preservation. Althouh it was only a short project, it highlighted for me just how important digital preservation is in the digital era. It is a highly topical talking point on professional networks, as more and more depositied collections are either born-digital or digitised (from analogue) records, and archive services now need to preserve these new collections.</p>
+
+<p>Digital records bring many advantages, but also many challenges, especially those posed by fast changing technology. My apprenticeship project only scratched the surface of digital preservation and I am now keen to deepen my understanding. I am using various strategies for developing digital preservation knowledge.</p>
+
+<p>I follow various professional archive networks particulaly <a href="https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A2=ind2404&amp;L=ARCHIVES-NRA&amp;O=D&amp;P=48766">JISCMail - ARCHIVES-NRA Archives</a> and <a href="https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?A1=ind2404&amp;L=DIGITAL-PRESERVATION">JISCMail - DIGITAL-PRESERVATION Archives - April 2024</a> . Digital preservation is discussed on these networks a lot.</p>
+
+<p>During the course of my apprenticeship I participated in a “digital preservation games”” event jointly run by Kings College London Archives, The National Archives and the Archives and Records Association. These were educational board games created by The National Archives, Kings College and the Archives and Records Association to teach vocabulary related to digital preservation. The event was open to anyone, irrespective of prior experience. I found it extrememly insightful and useful meeting like minded archivists and digital record managers who are all dealing with the same issue, how to preserve their born-digital collections at their individual archives. I also learnt a lot of new terminology.</p>
+
+<p>Fortunately there is a wealth of online-material for beginners on digital preservation, reflecting perhaps that this is a new and evolving area archivists need to get to grips with. The sources I plan to focus on initially are The Nataional Archives, the Digital Preservation Coalition and the British Library. I have just started the “Novice to Know How” training course <a href="https://www.nationalarchives.gov.uk/archives-sector/advice-and-guidance/managing-your-collection/preserving-digital-collections/novice-to-know-how/">Novice to Know-How - Archives sector</a> created by the Digital Preservation Coalition for The National Archives. This self-paced course covers the basics of digital preservation, focusing on developing digital preservation workflows. I am excited about this course as it is highly relevant. I will reflect on lessons learned as I progress through this course in future posts.</p>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/Dust2Digits/tag/dp">dp</a>,&nbsp;<a href="/Dust2Digits/tag/Preservica">Preservica</a>
+</section>
+
+
+
+<!--
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/Dust2Digits/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=Starting+out&url=http%3A%2F%2Flocalhost%3A4000%2FDust2Digits%2Fdevelopment%2F2024%2F04%2F14%2FStarting_out.html&via=TheBenCentra"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Starting+out&u=http%3A%2F%2Flocalhost%3A4000%2FDust2Digits%2Fdevelopment%2F2024%2F04%2F14%2FStarting_out.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FDust2Digits%2Fdevelopment%2F2024%2F04%2F14%2FStarting_out.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      <a href="//plus.google.com/share?title=Starting+out&url=http%3A%2F%2Flocalhost%3A4000%2FDust2Digits%2Fdevelopment%2F2024%2F04%2F14%2FStarting_out.html"
+        onclick="window.open(this.href, 'google-plus-share', 'width=550,height=255');return false;">
+        <i class="fa fa-google-plus-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+      <a href="//www.pinterest.com/pin/create/button/?description=Starting+out&url=http%3A%2F%2Flocalhost%3A4000%2FDust2Digits%2Fdevelopment%2F2024%2F04%2F14%2FStarting_out.html&media=http://localhost:4000/Dust2Digits/assets/img/header_image.jpg"
+        onclick="window.open(this.href, 'pinterest-share', 'width=550,height=255');return false;">
+        <i class="fa fa-pinterest-square fa-lg"></i>
+      </a>
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('http://localhost:4000/Dust2Digits/development/2024/04/14/Starting_out.html') + '&title=Starting out'; return false">
+        <i class="fa fa-reddit-square fa-lg"></i>
+      </a>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+-->
+
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Dust 2 Digits</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/Dust2Digits/posts/">Posts</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/categories/">Categories</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/tags/">Tags</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/about/">About</a>
+	
+
+	
+	<li class="nav-link"><a href="/Dust2Digits/contact/">Contact</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+      <!--
+      <p><strong>Contact</strong></p>
+      -->
+      <p><strong>          </strong></p>   <!-- keep the spacing between strong tags to separate the columns -->
+      <!--
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:vincente@acanas.co.uk">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">vincente@acanas.co.uk</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://twitter.com/TheBenCentra" title="Follow me on Twitter">
+              <i class="fa fa-twitter"></i>
+              <span class="username">TheBenCentra</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/bencentra" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">bencentra</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/pub/ben-centra/47/769/60a" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Ben Centra</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      -->
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <!--
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/Dust2Digits/feed.xml">via RSS</a></strong></p>
+      -->
+      <p class="text"><strong>Building skills for working with archives and collections through practical experience - sharing some discoveries along the way.
+</strong></p>
+    </div>  
+  </div>
+
+  <center><em>
+  <p class="copyright text-muted">&copy; 2024 Vincente Canas. All rights reserved.    
+     Site built with Jekyll, theme inspired by <a href="https://bencentra.com/centrarium/" target="_blank">Centrarium</a></p>
+  </em></center>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>
